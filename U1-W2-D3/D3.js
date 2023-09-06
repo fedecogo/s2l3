@@ -221,11 +221,12 @@ console.log(crewMass);
   "n/a" a "robot" (Tip: puoi effettuare la riassegnazione del valore corrispondente o 
     creare un nuovo array)
 */
-for (let1 = 0; i < starWarsCharacters.length ; i++ ){
+for (let i = 0; i < starWarsCharacters.length ; i++ ){
   if (starWarsCharacters[i].gender === 'n/a'){
     starWarsCharacters[i].gender = 'robot'
   }
 }
+console.log(starWarsCharacters)
 
 /* --EXTRA-- ESERCIZIO 9
   Utilizzando gli elementi presenti nell'array "femaleCharacters" rimuovi dall'array "characters" le stringhe corrispondenti a personaggi con lo stesso nome.
